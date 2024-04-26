@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2faa9f4-bb98-4447-8c91-87c005dbc52c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculator/Calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/calculator/MyStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/calculator/MyStepdefs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/calculator.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/calculator.feature" afterDir="false" />
@@ -30,17 +26,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Cucumber Java.Feature: calculator.executor": "Run",
-    "JUnit.RunnerTest.executor": "Run",
-    "Maven.SE_LAB_BDD [test].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/darmond157/Codes/SE_LAB_BDD"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Cucumber Java.Feature: calculator.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RunnerTest.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.SE_LAB_BDD [test].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/darmond157/Codes/SE_LAB_BDD&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="JUnit.RunnerTest">
     <configuration name="Feature: calculator" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
@@ -75,6 +71,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Cucumber Java.Feature: calculator" />
+      <item itemvalue="JUnit.RunnerTest" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.RunnerTest" />
