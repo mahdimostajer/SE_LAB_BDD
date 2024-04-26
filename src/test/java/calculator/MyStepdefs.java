@@ -18,7 +18,7 @@ public class MyStepdefs {
         calculator = new Calculator();
     }
 
-    @Given("^Two input values, (\\d+) and (\\d+)$")
+    @Given("^Two input values, (-?[1-9]\\d*|0) and (-?[1-9]\\d*|0)$")
     public void twoInputValuesAnd(int arg0, int arg1) {
         value1 = arg0;
         value2 = arg1;
@@ -28,6 +28,12 @@ public class MyStepdefs {
     public void iAddTheTwoValues() {
         result = calculator.add(value1, value2);
         System.out.print(result);
+    }
+
+    @Then("^I expect the result (-?[1-9]\\d*|0)$")
+    public void iExpectTheResult(int arg0) {
+        Assert.assertEquals(arg0, result);
+
     }
 
     @When("^I multiply the two values$")
@@ -47,11 +53,5 @@ public class MyStepdefs {
     public void iPowerTheTwoValues() {
         result = calculator.power(value1, value2);
         System.out.print(result);
-    }
-
-    @Then("^I expect the result (\\d+)$")
-    public void iExpectTheResult(int arg0) {
-        Assert.assertEquals(arg0, result);
-
     }
 }
