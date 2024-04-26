@@ -24,10 +24,28 @@ public class MyStepdefs {
         value2 = arg1;
     }
 
-
     @When("^I add the two values$")
     public void iAddTheTwoValues() {
         result = calculator.add(value1, value2);
+        System.out.print(result);
+    }
+
+    @When("^I multiply the two values$")
+    public void iMultTheTwoValues() {
+        result = calculator.mult(value1, value2);
+        System.out.print(result);
+    }
+
+    @When("^I divide the two values$")
+    public void iDivideTheTwoValues() {
+        result = calculator.div(value1, value2);
+        System.out.print(result);
+    }
+
+
+    @When("^I power the two values$")
+    public void iPowerTheTwoValues() {
+        result = calculator.power(value1, value2);
         System.out.print(result);
     }
 
